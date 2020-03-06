@@ -1,0 +1,19 @@
+version: '2'
+services:
+  app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/var/www/html
+  #      - /var/www/html
+  #    env_file:
+  #      - .env
+  web:
+    build:
+      context: ./docker/
+      dockerfile: web.dockerfile
+    ports:
+      - 28080:80
+    volumes_from:
+      - app:ro
