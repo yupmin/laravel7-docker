@@ -16,6 +16,8 @@ RUN cp /usr/local/etc/php/php.ini-production /usr/local/etc/php/php.ini && \
     sed -i "s/post_max_size = .*/post_max_size = 16M/" /usr/local/etc/php/php.ini && \
     sed -i "s/;cgi.fix_pathinfo=1/cgi.fix_pathinfo=0/" /usr/local/etc/php/php.ini && \
     sed -i "s/variables_order = .*/variables_order = 'EGPCS'/" /usr/local/etc/php/php.ini&& \
+    sed -i "s/;opcache.preload=/opcache.preload=\/var\/www\/html\/preload.php/" /usr/local/etc/php/php.ini&& \
+    sed -i "s/;opcache.preload_user=/opcache.preload_user=www-data/" /usr/local/etc/php/php.ini&& \
     sed -i "s/listen = .*/listen = 9000/" /usr/local/etc/php-fpm.d/www.conf && \
     sed -i "s/pm.max_children = .*/pm.max_children = 60/" /usr/local/etc/php-fpm.d/www.conf && \
     sed -i "s/pm.start_servers = .*/pm.start_servers = 30/" /usr/local/etc/php-fpm.d/www.conf && \
