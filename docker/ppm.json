@@ -1,0 +1,18 @@
+{
+    "bridge": "HttpKernel",
+    "host": "0.0.0.0",
+    "port": 8080,
+    "app-env": "none",
+    "debug": 0,
+    "logging": 1,
+    "static-directory": "public\\",
+    "bootstrap": "laravel",
+    "max-requests": 1000,
+    "max-execution-time": 30,
+    "memory-limit": -1,
+    "ttl": 0,
+    "populate-server-var": true,
+    "socket-path": "\/tmp\/",
+    "pidfile": "\/tmp\/ppm.pid",
+    "reload-timeout": 30
+}
