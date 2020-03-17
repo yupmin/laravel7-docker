@@ -18,12 +18,10 @@ RUN cp /usr/local/etc/php/php.ini-production /usr/local/etc/php/php.ini && \
     sed -i "s/variables_order = .*/variables_order = 'EGPCS'/" /usr/local/etc/php/php.ini&& \
     sed -i "s/;opcache.preload=/opcache.preload=\/var\/www\/html\/preload.php/" /usr/local/etc/php/php.ini&& \
     sed -i "s/;opcache.preload_user=/opcache.preload_user=www-data/" /usr/local/etc/php/php.ini&& \
-    sed -i "s/listen = .*/listen = 9000/" /usr/local/etc/php-fpm.d/www.conf && \
     sed -i "s/pm.max_children = .*/pm.max_children = 60/" /usr/local/etc/php-fpm.d/www.conf && \
-    sed -i "s/pm.start_servers = .*/pm.start_servers = 30/" /usr/local/etc/php-fpm.d/www.conf && \
-    sed -i "s/pm.min_spare_servers = .*/pm.min_spare_servers = 20/" /usr/local/etc/php-fpm.d/www.conf && \
-    sed -i "s/pm.max_spare_servers = .*/pm.max_spare_servers = 40/" /usr/local/etc/php-fpm.d/www.conf && \
-    sed -i "s/^;clear_env = no$/clear_env = no/" /usr/local/etc/php-fpm.d/www.conf
+    sed -i "s/pm.start_servers = .*/pm.start_servers = 20/" /usr/local/etc/php-fpm.d/www.conf && \
+    sed -i "s/pm.min_spare_servers = .*/pm.min_spare_servers = 15/" /usr/local/etc/php-fpm.d/www.conf && \
+    sed -i "s/pm.max_spare_servers = .*/pm.max_spare_servers = 25/" /usr/local/etc/php-fpm.d/www.conf
 
 WORKDIR /var/www/html
 COPY . /var/www/html
