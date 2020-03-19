@@ -15,7 +15,7 @@ RUN cp /usr/local/etc/php/php.ini-production /usr/local/etc/php/php.ini && \
     sed -i "s/upload_max_filesize = .*/upload_max_filesize = 16M/" /usr/local/etc/php/php.ini && \
     sed -i "s/post_max_size = .*/post_max_size = 16M/" /usr/local/etc/php/php.ini && \
     sed -i "s/;cgi.fix_pathinfo=1/cgi.fix_pathinfo=0/" /usr/local/etc/php/php.ini && \
-    sed -i "s/variables_order = .*/variables_order = 'EGPCS'/" /usr/local/etc/php/php.ini&& \
+    sed -i "s/variables_order = .*/variables_order = 'EGPCS'/" /usr/local/etc/php/php.ini && \
     sed -i "s/pm.max_children = .*/pm.max_children = 60/" /usr/local/etc/php-fpm.d/www.conf && \
     sed -i "s/pm.start_servers = .*/pm.start_servers = 20/" /usr/local/etc/php-fpm.d/www.conf && \
     sed -i "s/pm.min_spare_servers = .*/pm.min_spare_servers = 15/" /usr/local/etc/php-fpm.d/www.conf && \
