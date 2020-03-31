@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f4bbc2a9ededbd14e86db3e99d7ec05f",
+    "content-hash": "6558f74828bca9ebecac73d90cea4b1a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -431,7 +431,7 @@
                     "Fruitcake\\Cors\\": "src/"
                 }
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -642,94 +642,6 @@
                 "url"
             ],
             "time": "2019-07-01T23:21:34+00:00"
-        },
-        {
-            "name": "hhxsv5/laravel-s",
-            "version": "v3.6.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/hhxsv5/laravel-s.git",
-                "reference": "428b78489bf13b88ff002bb447f7c0888d4ff26d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/hhxsv5/laravel-s/zipball/428b78489bf13b88ff002bb447f7c0888d4ff26d",
-                "reference": "428b78489bf13b88ff002bb447f7c0888d4ff26d",
-                "shasum": ""
-            },
-            "require": {
-                "ext-json": "*",
-                "ext-pcntl": "*",
-                "php": ">=5.5.9",
-                "swoole/ide-helper": "@dev",
-                "symfony/console": ">=2.7.0"
-            },
-            "suggest": {
-                "ext-inotify": "Inotify, used to real-time reload.",
-                "ext-swoole": "Coroutine based Async PHP programming framework, require >= 1.7.19."
-            },
-            "bin": [
-                "bin/fswatch"
-            ],
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Hhxsv5\\LaravelS\\Illuminate\\LaravelSServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Hhxsv5\\LaravelS\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Xie Biao",
-                    "email": "hhxsv5@sina.com"
-                }
-            ],
-            "description": "🚀 LaravelS is an out-of-the-box adapter between Swoole and Laravel/Lumen.",
-            "homepage": "https://github.com/hhxsv5/laravel-s",
-            "keywords": [
-                "LaravelS",
-                "async",
-                "coroutine",
-                "http",
-                "inotify",
-                "laravel",
-                "laravel-s",
-                "lumen",
-                "performance",
-                "process",
-                "server",
-                "swoole",
-                "task",
-                "tcp",
-                "timer",
-                "udp",
-                "websocket"
-            ],
-            "funding": [
-                {
-                    "url": "https://gitee.com/hhxsv5/laravel-s?donate=true",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://www.blockchain.com/btc/address/33owCwMDZBikNe3SY1nnyJ64cEyP7i3mcU",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://www.paypal.me/hhxsv5",
-                    "type": "custom"
-                }
-            ],
-            "time": "2020-03-13T06:06:16+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -1160,7 +1072,7 @@
                     "League\\Flysystem\\": "src/"
                 }
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2060,40 +1972,6 @@
             "time": "2019-11-12T09:31:26+00:00"
         },
         {
-            "name": "swoole/ide-helper",
-            "version": "4.4.14",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/swoole/ide-helper.git",
-                "reference": "d52d22addfdc877de807cc85e2d8ad8a3b17ad17"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/swoole/ide-helper/zipball/d52d22addfdc877de807cc85e2d8ad8a3b17ad17",
-                "reference": "d52d22addfdc877de807cc85e2d8ad8a3b17ad17",
-                "shasum": ""
-            },
-            "require-dev": {
-                "guzzlehttp/guzzle": "~6.5.0",
-                "squizlabs/php_codesniffer": "~3.5.0",
-                "symfony/filesystem": "~4.3.0",
-                "zendframework/zend-code": "~3.3.0"
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Team Swoole",
-                    "email": "team@swoole.com"
-                }
-            ],
-            "description": "IDE help files for Swoole.",
-            "time": "2019-12-30T05:31:26+00:00"
-        },
-        {
             "name": "symfony/console",
             "version": "v5.0.5",
             "source": {
@@ -2456,16 +2334,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v5.0.5",
+            "version": "v5.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "6f9c2ba72f4295d7ce6cf9f79dbb18036291d335"
+                "reference": "26fb006a2c7b6cdd23d52157b05f8414ffa417b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/6f9c2ba72f4295d7ce6cf9f79dbb18036291d335",
-                "reference": "6f9c2ba72f4295d7ce6cf9f79dbb18036291d335",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/26fb006a2c7b6cdd23d52157b05f8414ffa417b6",
+                "reference": "26fb006a2c7b6cdd23d52157b05f8414ffa417b6",
                 "shasum": ""
             },
             "require": {
@@ -2507,7 +2385,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2020-02-14T07:43:07+00:00"
+            "time": "2020-03-30T14:14:32+00:00"
         },
         {
             "name": "symfony/http-kernel",
@@ -2607,16 +2485,16 @@
         },
         {
             "name": "symfony/mime",
-            "version": "v5.0.5",
+            "version": "v5.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mime.git",
-                "reference": "9b3e5b5e58c56bbd76628c952d2b78556d305f3c"
+                "reference": "481b7d6da88922fb1e0d86a943987722b08f3955"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mime/zipball/9b3e5b5e58c56bbd76628c952d2b78556d305f3c",
-                "reference": "9b3e5b5e58c56bbd76628c952d2b78556d305f3c",
+                "url": "https://api.github.com/repos/symfony/mime/zipball/481b7d6da88922fb1e0d86a943987722b08f3955",
+                "reference": "481b7d6da88922fb1e0d86a943987722b08f3955",
                 "shasum": ""
             },
             "require": {
@@ -2665,7 +2543,7 @@
                 "mime",
                 "mime-type"
             ],
-            "time": "2020-02-04T09:41:09+00:00"
+            "time": "2020-03-27T16:56:45+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -2786,16 +2664,16 @@
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "v1.14.0",
+            "version": "v1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "6842f1a39cf7d580655688069a03dd7cd83d244a"
+                "reference": "47bd6aa45beb1cd7c6a16b7d1810133b728bdfcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/6842f1a39cf7d580655688069a03dd7cd83d244a",
-                "reference": "6842f1a39cf7d580655688069a03dd7cd83d244a",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/47bd6aa45beb1cd7c6a16b7d1810133b728bdfcf",
+                "reference": "47bd6aa45beb1cd7c6a16b7d1810133b728bdfcf",
                 "shasum": ""
             },
             "require": {
@@ -2809,7 +2687,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.14-dev"
+                    "dev-master": "1.15-dev"
                 }
             },
             "autoload": {
@@ -2844,20 +2722,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-01-17T12:01:36+00:00"
+            "time": "2020-03-09T19:04:49+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.14.0",
+            "version": "v1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "34094cfa9abe1f0f14f48f490772db7a775559f2"
+                "reference": "81ffd3a9c6d707be22e3012b827de1c9775fc5ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/34094cfa9abe1f0f14f48f490772db7a775559f2",
-                "reference": "34094cfa9abe1f0f14f48f490772db7a775559f2",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/81ffd3a9c6d707be22e3012b827de1c9775fc5ac",
+                "reference": "81ffd3a9c6d707be22e3012b827de1c9775fc5ac",
                 "shasum": ""
             },
             "require": {
@@ -2869,7 +2747,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.14-dev"
+                    "dev-master": "1.15-dev"
                 }
             },
             "autoload": {
@@ -2903,20 +2781,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-01-13T11:15:53+00:00"
+            "time": "2020-03-09T19:04:49+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "v1.14.0",
+            "version": "v1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "46ecacf4751dd0dc81e4f6bf01dbf9da1dc1dadf"
+                "reference": "37b0976c78b94856543260ce09b460a7bc852747"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/46ecacf4751dd0dc81e4f6bf01dbf9da1dc1dadf",
-                "reference": "46ecacf4751dd0dc81e4f6bf01dbf9da1dc1dadf",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/37b0976c78b94856543260ce09b460a7bc852747",
+                "reference": "37b0976c78b94856543260ce09b460a7bc852747",
                 "shasum": ""
             },
             "require": {
@@ -2925,7 +2803,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.14-dev"
+                    "dev-master": "1.15-dev"
                 }
             },
             "autoload": {
@@ -2958,7 +2836,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-01-13T11:15:53+00:00"
+            "time": "2020-02-27T09:26:54+00:00"
         },
         {
             "name": "symfony/polyfill-php73",
@@ -3497,7 +3375,7 @@
                     "Dotenv\\": "src/"
                 }
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -3551,7 +3429,7 @@
                     "voku\\tests\\": "tests/"
                 }
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3957,6 +3835,80 @@
             "time": "2016-01-20T08:20:44+00:00"
         },
         {
+            "name": "hhxsv5/laravel-s",
+            "version": "v3.6.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hhxsv5/laravel-s.git",
+                "reference": "428b78489bf13b88ff002bb447f7c0888d4ff26d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hhxsv5/laravel-s/zipball/428b78489bf13b88ff002bb447f7c0888d4ff26d",
+                "reference": "428b78489bf13b88ff002bb447f7c0888d4ff26d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-pcntl": "*",
+                "php": ">=5.5.9",
+                "swoole/ide-helper": "@dev",
+                "symfony/console": ">=2.7.0"
+            },
+            "suggest": {
+                "ext-inotify": "Inotify, used to real-time reload.",
+                "ext-swoole": "Coroutine based Async PHP programming framework, require >= 1.7.19."
+            },
+            "bin": [
+                "bin/fswatch"
+            ],
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Hhxsv5\\LaravelS\\Illuminate\\LaravelSServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Hhxsv5\\LaravelS\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Xie Biao",
+                    "email": "hhxsv5@sina.com"
+                }
+            ],
+            "description": "🚀 LaravelS is an out-of-the-box adapter between Swoole and Laravel/Lumen.",
+            "homepage": "https://github.com/hhxsv5/laravel-s",
+            "keywords": [
+                "LaravelS",
+                "async",
+                "coroutine",
+                "http",
+                "inotify",
+                "laravel",
+                "laravel-s",
+                "lumen",
+                "performance",
+                "process",
+                "server",
+                "swoole",
+                "task",
+                "tcp",
+                "timer",
+                "udp",
+                "websocket"
+            ],
+            "time": "2020-03-13T06:06:16+00:00"
+        },
+        {
             "name": "mockery/mockery",
             "version": "1.3.1",
             "source": {
@@ -4114,7 +4066,7 @@
                     "NunoMaduro\\Collision\\": "src/"
                 }
             },
-            "notification-url": "https://repo.packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -5475,6 +5427,40 @@
             "time": "2016-10-03T07:35:21+00:00"
         },
         {
+            "name": "swoole/ide-helper",
+            "version": "4.4.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swoole/ide-helper.git",
+                "reference": "d52d22addfdc877de807cc85e2d8ad8a3b17ad17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swoole/ide-helper/zipball/d52d22addfdc877de807cc85e2d8ad8a3b17ad17",
+                "reference": "d52d22addfdc877de807cc85e2d8ad8a3b17ad17",
+                "shasum": ""
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "~6.5.0",
+                "squizlabs/php_codesniffer": "~3.5.0",
+                "symfony/filesystem": "~4.3.0",
+                "zendframework/zend-code": "~3.3.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Team Swoole",
+                    "email": "team@swoole.com"
+                }
+            ],
+            "description": "IDE help files for Swoole.",
+            "time": "2019-12-30T05:31:26+00:00"
+        },
+        {
             "name": "theseer/tokenizer",
             "version": "1.1.3",
             "source": {
@@ -5571,6 +5557,5 @@
     "platform": {
         "php": "^7.2.5"
     },
-    "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "platform-dev": []
 }
